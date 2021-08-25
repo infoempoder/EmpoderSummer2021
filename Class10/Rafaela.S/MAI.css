@@ -1,0 +1,29 @@
+.navbar a:hover {
+  background-color:azure;
+  color:black;
+}
+.navbar{
+  background-color:black;
+  overflow:hidden;
+}
+.navbar a {
+  float: left;
+  color:whitesmoke;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+.navbar a.active {
+  background-color:whitesmoke;
+  color:black;
+}
+body{
+  background-color: azure;
+}
+h1{
+  text-align:center;
+}
+.centerImage { display: block; margin-left: auto; margin-right: auto; width: 50%; }
+
+  

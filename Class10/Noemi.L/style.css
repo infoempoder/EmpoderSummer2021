@@ -1,0 +1,53 @@
+/* Adds black background color to top of navigation */
+.navbar {
+  background-color: black;
+  overflow: hidden; 
+}
+/* //Style the links in navigation bar */
+.navbar a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px; //top/bottom,right/left
+  text-decoration: none;
+  font-size: 17px;
+}
+/* //change the colorof links on hover inside nav bar */
+.navbar a:hover {
+  background-color: gray;
+  color: black;
+}
+/* //Add color to the active/current link inside the nav bar */
+.navbar a.active {
+  background-color: green;
+  color: white; 
+}
+body {
+  background-color: blanchedalmond; 
+}
+.helvetica {
+  font-family: helvetica; 
+}
+.georgia {
+  font-family: georgia; 
+}
+.centerHeader {
+  text-align: center;
+}
+.row::after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+.column25 {
+  float: left;
+  width: 25%;
+}
+.column75 {
+  float: left;
+  width: 75%; 
+}
+.column33 {
+  float: left;
+  width: 33%;
+}
