@@ -1,0 +1,160 @@
+.navyBackground {
+  background-color: navy;
+}
+
+.navbar {
+  background-color: navy;
+  overflow: hidden;
+}
+
+.navbar a { 
+  float: left; 
+  color: whitesmoke;
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 17px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover { 
+  background-color: whitesmoke;
+  color: navy;
+}
+
+.navbar a.active {
+  background-color: whitesmoke;
+  color: navy;
+}
+
+
+h1 {
+  color:navy;
+  text-align:center; 
+}
+
+h2 { 
+  color: navy; 
+  text-align: center; 
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left; 
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+h4 {
+  color: black;
+  text-align: center; 
+}
+
+button { 
+  background-color: navy;
+  color: whitesmoke;
+  padding: 15px 25px; 
+  text-align: center; 
+  display: block;
+  margin: auto;
+  font-size: 15px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+  background-color: rgba(103, 179, 103, 0.719);
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.whiteText {
+  color: whitesmoke;
+  text-align: center; 
+}
+
+p2 {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p3 {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+
+p4 {
+  color: black;
+  text-align: center; 
+  font-size: 15px;
+}
+
+font1 { 
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.topPadding {
+  padding-top: 25px; 
+}
+
+.topPadding2 {
+  padding-top: 35px;
+}
+
+.topPadding3 {
+  padding-top: 45px; 
+}
+
+.leftPadding {
+  padding-left: 15px;
+}
+
+.rightPadding {
+  padding-right: 15px; 
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right{
+  text-align: right; 
+}
+
+.center{
+  text-align: center; 
+}
+
+.navyText {
+  color:navy;
+}
+
+.blackText {
+  color: black; 
+}
+
