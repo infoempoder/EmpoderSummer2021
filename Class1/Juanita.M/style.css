@@ -1,0 +1,66 @@
+.black { 
+  color: black       
+  } 
+
+body { 
+  background-color: red 
+  }
+
+.pinkBackground { 
+  background-color: pink      
+  }
+
+.center { 
+  text-align: center 
+  } 
+
+.size14 { 
+  font-size: 14px; 
+}
+
+p {  
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+.navbar a{ 
+  float: left; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px;  
+  text-decoration: none; 
+  font-size: 17px; 
+} 
+ 
+.navbar a:hover { 
+  background-color: red; 
+  color: black;  
+} 
+.navbar a.active { 
+  background-color: pink; 
+  color: black;
+}
+
+h1 { 
+  text-align: center;
+} 
+ 
+.right { 
+  text-align: right
+} 
+
+.column2 { 
+ float: left; 
+ width:50%;  
+}
+  
+.row:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+
