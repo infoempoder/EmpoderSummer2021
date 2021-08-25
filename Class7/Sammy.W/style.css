@@ -1,0 +1,56 @@
+.navbar {
+  background-color:rgb(243, 136, 136);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color:rgb(243, 136, 136);
+}
+
+.navbar a.active {
+  background-color:black;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float:left;
+  width:50%;
+}
+
+.color {
+background-color:gainsboro;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.gray {
+  background-color: gainsboro;
+}
+
+.column2 {
+  float: left;
+  width:50%;
+}

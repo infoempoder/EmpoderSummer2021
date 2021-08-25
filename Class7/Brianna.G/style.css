@@ -1,0 +1,83 @@
+body {
+  background-color:white;
+}
+/* hello humans */
+h1 {
+  color:gray;
+}
+p {
+  font-size:4mm;
+}
+
+.center {
+  text-align:center;
+}
+
+.tealbackground {
+  background-color:teal;
+}
+.column {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  width:25%;
+}
+
+.right {
+  width:75%;
+}
+
+.navbar {
+  background-color:gray;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+ 
+ .navbar a:hover {
+ background-color:lightblue;
+ color:white;
+}
+
+.navbar a.active {
+  background-color:yellowgreen;
+  color:white;
+}
+ 
+.idk {
+  text-align:center;
+}
+
+.div {
+  text-align:center;
+}
+
+.column {
+  float: left;
+  width:33.33%;
+}
+
+.text {
+  font-size:30px;
+}
+.uh {
+  text-align:left;
+}
+
+.orange {
+  background-color:rgb(248, 190, 81);
+}
