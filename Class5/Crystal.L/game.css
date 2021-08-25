@@ -1,0 +1,22 @@
+button {
+ background-color: lightgrey;    
+ border: none;
+ color: cornflowerblue;
+ padding: 15px 26px;
+ text-align: center;
+ display: inline-block;
+ font-size: 15px;
+ font-family: cursive;
+ transition-duration: 3s;
+ border-radius: 15px;
+}
+
+button:hover {
+ background-color: cornsilk;
+ color: black;
+ border: 1px solid black;
+}
+
+.plum{
+  background-color:plum;
+}

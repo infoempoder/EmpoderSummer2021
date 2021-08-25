@@ -1,0 +1,41 @@
+.red{ 
+  color:red;
+  font-size: 20px;
+  text-align:center;
+} 
+.lightgrey{
+  background-color: lightgrey;
+}
+.plum{
+  background-color: plum;
+  text-align: center;
+}
+.cornsilk{
+  background-color:cornsilk;
+  text-align: center;
+}
+.column{
+  float:left;
+  width: 50;
+}
+.column{
+  float:right;
+  width: 50;
+}
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.navbar{
+  background-color: peachpuff;
+  overflow: hidden;
+}
+.navbar a{
+  float:left;
+  color: cornflowerblue;
+  text-align:center;
+  padding:14px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+}

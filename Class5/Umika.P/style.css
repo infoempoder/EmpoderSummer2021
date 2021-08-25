@@ -1,0 +1,68 @@
+body{
+  background-color:lightcyan;
+}
+.black{
+color:black;
+ }
+.palegoldenrod{
+  background-color: palegoldenrod ;  
+}
+.center{
+  text-align: center;
+}
+.column2 {
+  float: left;
+  width: 50%
+}
+
+.navbar {
+  background-color: darkblue;
+  overflow: hidden; 
+}
+
+.navbar a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 18px 20px;  (Top/Bottom, Right/Left)
+  text-decoration: none;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: darkblue;
+}
+.plum{
+  background-color:lightblue;
+  text-align: center;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+ background-color: black;    
+ border: none;
+ color: lightblue;
+ padding: 15px 26px;
+ text-align: center;
+ display: inline-block;
+ font-size: 15px;
+ font-family: cursive;
+ transition-duration: 3s;
+ border-radius: 15px;
+}
+
+button:hover {
+ background-color:grey;
+ color: black;
+ border: 1px solid black;
+}
