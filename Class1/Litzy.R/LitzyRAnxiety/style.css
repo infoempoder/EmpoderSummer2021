@@ -1,0 +1,102 @@
+ p {
+  text-align: center;
+  font-family:'Franklin Gothic', 'Medium''Arial Narrow', Arial, sans-serif;
+  font-size: 20px; 
+  color:rgb(50, 48, 172);
+  background-color: lavender
+
+}
+
+.red {  
+   color :rgb(50, 48, 172);
+}
+
+.center {
+ text-align: center; 
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.lightpinkBackground {
+  background-color:rgb(253, 253, 237);
+}
+
+.blendText {
+  color:rgb(253, 253, 237);
+}
+.column2{
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33%;
+}
+
+.column4 { 
+  float: left;
+  width: 25%;
+ }
+
+ .column{ 
+  float: left;
+ }
+
+ .left {
+   width: 25%;
+ }
+ .right {
+  left: 75%;
+ }
+   
+  
+.row:after { 
+  content: ""; 
+  display: table; 
+  clear: both; 
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color:lavender;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: rgb(50, 48, 172);
+  color:black;
+}
+
+.navbar a.active {
+  background-color: lavender;
+  color:rgb(50, 48, 172);
+
+}
+
+button {
+  background-color:rgb(211, 245, 211);
+  color : black;
+  padding : 15px 25px;
+  text-align: center;
+  font-size: 15px;
+  font-family : cursive;
+
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(211, 245, 211);
+  font-family: monospace;
+}
+
