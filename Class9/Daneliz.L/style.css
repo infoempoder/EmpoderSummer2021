@@ -1,0 +1,52 @@
+ body {
+  background-color: blueviolet;
+  color: rgb(33, 219, 243); 
+  text-align: left;
+  font-family:cursive;
+  
+  }
+
+  p {
+    color:  rgb(212, 159, 118); 
+  }
+
+  .navbar{
+ background-color:black;
+ overflow:hidden;
+}
+.navbar a{
+ float: left;
+ color:gray;
+ text-align:center;
+ padding: 14px 16px;
+ text-decoration:none;
+ font-size:17px;
+}
+.navbar a:hover{
+ background-color: blanchedalmond(233, 165, 227);
+ color:black;
+}
+.navbar a.active{
+ background-color:green;
+ color:white;
+}
+
+
+button {
+  background-color:bisque;
+  color:aqua;
+  font-size:20px;
+  font-family: fantasy;
+
+
+  padding:10px 20px;
+  border-color: aquamarine;
+  border-width:16px;
+  border-style:ridge;
+
+ transition-duration:0.4s;
+}
+button:hover{
+  background-color: lightsalmon;
+  color: lavender;
+}

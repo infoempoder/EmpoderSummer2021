@@ -1,0 +1,56 @@
+
+body {
+  background-color:rgba(161, 85, 233, 0.65);
+  color:bisque;
+  text-align:bisque;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.red{
+  color: crimson;
+}
+
+.cornsilkBackground{
+  background-color:cornsilk;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+
+.column{
+ float: left;
+ width:50%;//This can be changed depending on how many rows you have. To do unequal columns, you will need multiple classes.
+}
+.row:after{
+ content:"";
+ display: table;
+ clear:both;
+}
+
+.navbar {
+  background-color: rgb(237, 163, 240);
+  overflow: hidden;
+}
+
+.navbar{
+  float: left;
+  color:cornflowerblue;
+  text-align:center;
+  padding: 14px 16px; (Top,Bottom, Right/Left)
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.navbar a:hover {
+  background-color:antiquewhite;
+  color:deeppink;
+}
+
+.navbar a.active {
+  background-color:lavenderblush;
+  color:lightpink;
+}

@@ -1,0 +1,70 @@
+.column {
+  float: left;
+  width: 33.33%
+}
+
+.row:after {
+  content: ""; 
+  display: table;
+  clear: both;
+}
+
+.navbar{
+  background-color:rgb(174, 218, 243);
+  overflow:hidden;
+}
+.navbar a{
+  float: left;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+.navbar a:hover{
+  background-color:rgb(218, 237, 248);
+  color:black;
+}
+.navbar a.active{
+  background-color:rgb(123, 85, 192);
+  color:white;
+}
+
+/* <div class="unequalColumn left"> */
+.unequalColumn {
+  float: right;
+}
+.left{
+  width: 35%;
+}
+.right{
+  width: 65%;
+}
+
+body { 
+  background-color:rgb(11, 10, 37);  
+  color: mintcream; 
+  text-align: left;
+  font-family: serif;
+  font-size: 18px; 
+} 
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Hi, here are some ideas */
+h1 {
+
+}
+a {
+
+}
+a:hover {
+
+}
+/* This is when the link turns from blue to purple after you've clicked it before */
+a:visited {
+
+}

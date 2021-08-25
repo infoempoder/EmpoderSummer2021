@@ -1,0 +1,111 @@
+body {
+  background-color: antiquewhite;
+  color:  black;
+  text-align: left;
+  font-family:cursive;
+}
+
+p {
+  color: pink;
+  font-family: sans-serif;
+} 
+
+h2 {
+  color: white;
+}
+
+h1 {
+  color: white;
+} 
+
+li {
+  color: pink; 
+}
+
+.cornflowerblue {
+  color: cornflowerblue;  
+  text-align: center;
+}
+
+rgb {
+  color: rgb(201, 177, 214); 
+} 
+
+/* .rgb {
+  color: rgb(146, 141, 113) */
+
+ul {
+  color: cornflowerblue;
+}
+ 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.cornflowerblueBackground{
+  background-color: cornflowerblue; 
+}
+
+.lightcoralBackground{
+  background-color: lightcoral;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.navbar{
+ background-color:black;
+ overflow:hidden;
+}
+
+.navbar a{
+ float: left;
+ color:gray;
+ text-align:center;
+ padding: 14px 16px;
+ text-decoration:none;
+ font-size:17px;
+}
+
+.navbar a:hover{
+ background-color: black;
+ color: gray;
+}
+
+.navbar a.active{
+ background-color:rgb(213, 180, 209);
+ color:white;
+}
+
+
+.violet{
+  color: rgb(235, 170, 235)
+}
+
+button {  
+  background-color:black;
+  color: aliceblue; 
+  padding: 10px 10px;
+  border-color: rgb(255, 197, 206);
+  border-width: 5px;
+  transition-duration: 0.45s;
+  }
+
+  button:hover{ 
+    background-color: white;
+    color: black; 
+    border-color: lightblue;
+  }
+
+  .dog{ 
+  color: rgb(165, 150, 169) ; 
+  }
