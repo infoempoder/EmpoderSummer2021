@@ -1,0 +1,92 @@
+.love{
+  font-family: cursive;
+  color:lightblue
+}
+
+body{
+  background-color: cornflowerblue;
+}
+
+.navbar{
+  color: rgb(13, 168, 196);
+  overflow:hidden;
+  background-color: aquamarine
+}
+
+.navbar a:hover{
+background-color:blue;
+color:mediumaquamarine;
+}
+
+.navbar a.active{
+background-color:Blue;
+color:mediumaquamarine;
+}
+
+.navbar a{
+ float:left;
+ color:blue;
+ text-align:center;
+ padding:14px 16px;
+ text-decoration: none;
+ font-size:17px;
+}
+
+.column{
+  float: left;
+}
+
+.left{
+  width:50%;
+}
+
+.right{
+  width:50%;
+}
+
+.column3{
+float: left;
+width:33.3%;
+}
+
+
+.row:after { content: ""; display: table; clear: both; }
+
+button{
+  background-color:deepskyblue;
+border:none;
+color:white;
+padding:15px 26px;
+text-align:center;
+display:inline-block;
+font-size:12px;
+border-radius: 4px;
+transition-duration:.4s;
+}
+
+button:hover{
+  background-color: cyan;
+  color:blue;
+  border: 2px solid blue;
+}
+
+.love{
+  color:white
+}
+
+.sun{
+  float: right;
+    justify-content: center;
+
+}
+
+.about{
+ background-color: aqua
+}
+
+.water{
+ float: left;
+   justify-content: center;
+
+}
+
