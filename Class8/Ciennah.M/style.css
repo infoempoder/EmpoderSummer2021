@@ -1,0 +1,190 @@
+
+.navbar{
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.navbar a{
+  float: left;
+  color: darkseagreen; 
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover{
+  background-color:honeydew;
+  color: darkseagreen;
+}
+
+.navbar a.active {
+  background-color:cadetblue;
+  color:azure
+}
+body {
+  color:rgb(32, 32, 32);
+  }
+body {
+  background-color:rgb(155, 173, 190);
+}
+mark{
+  background-color:rgb(255, 255, 255);
+}
+h2{
+  color:black;
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+}
+
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px
+}
+.cadetblue{
+    color:cadetblue;
+    text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+p{
+  font-size: 115%; 
+}
+.whiteBackground{
+  background-color: white;
+}
+
+.whitesmokeBackround{
+  background-color:whitesmoke;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  background-color:darkolivegreen;
+  color:ghostwhite;
+}
+
+
+
+.column4 {
+  float: right;
+  width: 50%;
+  background-color:thistle;
+  color:ghostwhite;
+}
+
+
+
+
+.columnU {
+  float:center;
+  width: 100%;
+  background-color: tan;
+  color: white
+
+}
+
+.columnF {
+  float:center;
+  width: 100%;
+  background-color:steelblue;
+  color: white
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  background-color:darkolivegreen;
+  color:ghostwhite;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+  background-color:rgb(112, 192, 139);
+  color:ghostwhite;
+}
+
+.column5 {
+  float: left;
+  width: 50%;
+  background-color:burlywood;
+  color:ghostwhite;
+}
+
+.column6 {
+  float: right;
+  width: 50%;
+  background-color:violet;
+  color:ghostwhite;
+}
+
+.column7 {
+  float: left;
+  width: 50%;
+  background-color:darkseagreen;
+  color:ghostwhite;
+}
+
+.column8 {
+  float: right;
+  width: 50%;
+  background-color:thistle;
+  color:ghostwhite;
+}
+
+.column9 {
+  float: right;
+  width: 50%;
+  background-color:blueviolet;
+  color:ghostwhite;
+}
+
+.column10 {
+  float: left;
+  width: 50%;
+  background-color:darkgoldenrod;
+  color:ghostwhite;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.f23 {
+  font-size:23px;
+}
+
+h3{
+  color:black;
+  text-align: center;
+  background-color: rgb(255, 215, 212);
+}
+

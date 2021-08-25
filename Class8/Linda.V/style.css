@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(165, 211, 230)
+}
+
+h2{
+  text-align: center;
+}
+p{
+  color: green;
+  text-align: center;
+  font-family: serif;
+  font-size: 14px;
+}
+.red{
+  color:red;
+}
+.green{
+  color: green;
+}
+.center{
+  text-align: center;
+}
+.column4{
+float: left;
+width: 25%
+}
+.row after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+float: left;
+}
+.left{
+  width:25%;
+}
+.right{
+  width:75%;
+}
+.navbar{
+  background-color:hotpink;
+  overflow:hidden;
+}
+.navbar a{
+float: left;
+color:blueviolet;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover{
+background-color: hotpink;
+color:blueviolet;
+}

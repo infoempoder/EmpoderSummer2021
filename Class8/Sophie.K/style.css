@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue
+}
+
+h1 { color: firebrick;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+h3 { color: lightcoral;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+p {
+  color: black;
+  text-align:left;
+  font-size: 30px;
+}
+
+  button {
+ background-color: lightcoral; 
+ border: none;
+ color: palegreen;
+ padding: 15px 25px;
+ text-align: center;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 8px;
+ transition-duration: .7;
+}
+button:hover {
+ background-color: palegreen;
+ color: firebrick;
+ border: 5px solid lightcoral;
+}
+
+.navbar {
+  background-color: palegreen;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  color: firebrick;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none; 
+  font-size: 18px;
+}
+.navbar a:hover{
+  background-color: firebrick;
+  color: palegreen;
+}
+
+.lightcoralBackground {
+  background-color: lightcoral;
+}
+.palegreenBackground {
+  background-color: palegreen;
+}
+.firebrickBackground {
+  background-color: firebrick;
+}
+
+.center{
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
