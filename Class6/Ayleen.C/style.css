@@ -1,0 +1,93 @@
+.greenBackground{
+  background-color:  white;
+  text-align:center;
+  font-size: 25px;
+  padding: inherit;
+  font-color: black;
+}
+
+
+.navbar{
+  background-color:white;
+  overflow: hidden;
+}
+
+
+.navbar a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding:40px 40px;
+  text-decoration:none;
+  font-size:25px;
+}
+
+
+
+body{
+  background-color: white ;
+}
+
+
+
+
+h2{
+  color: black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 100px 100px;
+}
+
+.column4{
+  float: right;
+  width:50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+
+
+.column2{
+  float: left;
+  width:50%;
+}
+
+h2{
+  padding: 25px 25px;
+}
+
+
+.column4{
+  float: left;
+  width:50%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+column4{
+  float: left;
+  width:50%;
+}
+
+.rightColumn {
+  float: right;
+  width: 50%;
+  font-size: 40px;
+}
+
+.column2{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+

@@ -1,0 +1,81 @@
+h1{ 
+  Color:rgb(125, 75, 167);
+  font-size:25px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  background-color:rgb(150, 225, 255)
+}
+p{
+  color:white;
+  font-size:18px;
+  text-align: center;
+  font-family:Cochin;
+}
+.column/* different classes in div for uneven columns*/{
+  float: left;
+  width:50%;
+  /*50% for two columns
+  25 for four columns
+  100 divided by # of columns for width for equal width| columns diferent size for uneven columns*/
+}
+
+
+mark{
+  color:rgb(0, 174, 197);
+}
+li{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(1, 40, 90); 
+  text-align: center;
+  font-size:19px;
+}
+a{
+  color:rgb(125, 75, 167);
+  text-align:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.purple{
+  background-color:rgb(233, 143, 255);
+
+}
+
+.pinkBackground{
+  background-color:rgb(245, 169, 184);
+}
+
+.pinkFont {
+  color: rgb(245, 169, 184);
+}
+
+
+.navbar{
+  background-color:rgb(245, 169, 184);
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  color:rgb(146, 80, 167);
+  text-align:center;
+  padding:20px 20px;
+  text-decoration:none;
+  font-size:20px
+}
+.navbar a:hover{
+  color:rgb(146, 80, 167);
+  background-color:rgb(255, 255, 255);
+}
+.navbar a.active{
+  background-color:rgb(146, 80, 167);
+  color:white;
+}
+.darkblue{
+  background-color: rgb(68, 165, 230)
+}
+.white{
+  background-color:white;
+}
+button{
+  text-align:center;
+}
