@@ -1,0 +1,82 @@
+.navbar{
+  background-color: cyan;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  color: darkcyan;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px; 
+}
+.navbar a:hover{
+  background-color: thistle;
+  color: darkmagenta;
+}
+.navbar a.active{
+  background-color: rgb(218, 68, 163);
+  color: white;
+}
+
+
+body{
+  background-color: lightcyan;
+}
+
+
+
+
+.row:after{
+  content:"";
+  display:table;
+  clear: both;
+}
+.column{
+  float: left;
+  width: 50%;
+}
+.rowTwo{
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnTwo{
+  float: right;
+  width: 50%;
+}
+
+.c{
+  text-align: center;
+}
+
+.center{
+  text-align:center
+}
+
+button{
+  background-color: rgba(0, 255, 255, 0.459);
+  border: none;
+  color: darkcyan;
+  padding: 15px 15px;
+  text-align:center; 
+  display: inline-block; 
+  font-size: 12px;
+  border-radius: 12px;
+}
+
+button:hover{
+  background-color: pink;
+  color: white; 
+  border: 1px solid fuchsia;
+  transition-duration: .3s;
+}
+
+p{
+  color: darkcyan;
+}
+
+.move{
+  text-align: center;
+  font-size: 20px;
+}
