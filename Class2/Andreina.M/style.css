@@ -1,0 +1,70 @@
+ .NavBar{
+ background-color: #D3D3D3;
+ overflow: hidden;
+}
+
+.NavBar a{
+float: left;
+color: black;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.NavBar a:hover{
+background-color : black;
+color : white;
+}
+
+.navbar a.active{
+  background: gray;
+  color : white;
+}
+
+h4{
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 30;
+  background-color:none ;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 30;
+  background-color: none;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 30;
+  background-color: none;
+}
+
+body{
+  background-color: black;
+}
+
+.empowerment{
+  text-align: center;
+}
+
+.About{
+  text-align: center;
+}
+
+.column{
+  float : left;
+  width : 20%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
