@@ -1,0 +1,84 @@
+.blue {
+  color:lightsteelblue;
+}
+
+.center{
+  text-align: center;
+}
+
+.backgroundyellow {
+  background-color: lightyellow;
+}
+
+.backgroundpink {
+  background-color:mistyrose;
+}
+
+
+.backgroundlightblue {
+  background-color:azure;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+}
+
+.row:after { 
+  content:""; 
+  display: table; 
+  clear: both;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a:hover{
+  background-color: azure;
+  color: blue
+}
+
+.navbar a:active{
+  background-color: green;
+  color: white
+}
+
+.navbar a{
+  background-color: black;
+  float: left;
+  text-align: center;
+  color: gray;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+
+button {
+  background-color: antiquewhite;
+  border: 2px solid black; 
+  color: white; 
+  padding: 15px 26px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 12px;
+  border-radius: 4px;
+  transition-duration: 2s;
+}
+
+button:hover {
+  background-color: pink; 
+  color: black;
+  border: 2px solid black;
+
+}

@@ -1,0 +1,121 @@
+button{
+  backround-color:green;
+  border:none;
+  color:white;
+  padding:15px 26px ;
+  text-align:center;
+  display:inline-block;
+  font-size:12px;
+  border-radius: 4px;
+  transition-duration:2s;
+}
+
+
+button:hover{
+  background-color:pink;
+  color:black;
+  border:2 px solid black;
+}
+
+
+
+
+
+
+
+.navbar{
+  background-color: deepskyblue;
+  overflow: hidden;
+
+}
+
+.navbar a:hover{
+  background-color: azure;
+  color:blue;
+}
+
+.navbar a.active{
+  background-color:green;
+  color: white;
+}
+
+.navbar a {
+  background-color: black;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color:grey;
+  font-size:17px;
+  padding: 14px 16px ;
+}
+
+
+
+
+.column{
+  float: left;
+  width:50%;
+}
+
+.column3{
+  float: left;
+  width:33.33% ;
+}
+
+.column4{
+  float: left;
+  width:25%;
+}
+
+
+
+.row:after{
+ content: "";
+  display: table;
+  clear: both;
+}
+
+
+.red {
+color:red; 
+}
+ 
+body{
+  background-color:azure;
+  color:darkred;
+}
+
+
+
+
+
+
+
+.center{
+  text-align: center;
+}
+
+
+
+/* example */
+.bisque{
+  color:bisque;
+} 
+
+
+.backroundbisque{
+background-color:bisque;
+}
+
+.backroundlightblue {
+  background-color:lightblue
+}
+
+.backroundcornflowerblue{
+  background-color:cornflowerblue
+}
+
+.f30 {
+font-size:30px;  
+}
+/* looking good!!! */
