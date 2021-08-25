@@ -1,0 +1,129 @@
+.navbar a{
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
+.navbar a:hover{
+color: rgb(13, 63, 36);
+
+}
+.navbar{
+background-color: rgb(77, 129, 101);
+overflow: hidden;
+}
+
+body{
+background-color: rgba(36, 117, 74, 0.795);
+}
+
+p{
+font-size: 17px;
+
+}
+.gr{
+background-color: rgb(77, 129, 101);
+
+
+}
+.gre{
+  background-color: rgb(77, 129, 101);
+}
+
+.gr2{
+   background-color: rgb(77, 129, 101);
+}
+.gr3{
+   background-color: rgb(77, 129, 101);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column5 {
+float: left;
+width:  20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.col5 {
+float: left;
+width:  50%;
+
+text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.g {
+text-align: center;
+}
+.f2 {
+text-align: center;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.coll {
+float: left;
+width:  50%;
+
+text-align: center;
+}
+.center2{
+text-align: center;
+  
+}
+
+
+.gr8{
+
+  background-color: rgb(77, 129, 101);
+}
+.row8:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col8 {
+float: left;
+width:  50%;
+
+text-align: center;
+}
+.center2{
+text-align: center;
+  
+}
+
