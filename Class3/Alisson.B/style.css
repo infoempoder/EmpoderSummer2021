@@ -1,0 +1,74 @@
+body {
+  background-color: lemonchiffon;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  background-color:lightcyan;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;  (Top/Bottom, Right/Left)
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:lightgrey;
+  color:black;
+}
+.navbar a.active {
+  background-color: green;
+  color:white;
+}
+
+.column4 {
+  float: left;
+  width: 45%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+ background-color: #4CAF50;
+ border: none;
+ color: white;
+ padding: 15px 26px;
+ text-align: center;
+ display: inline-block;
+ font-size: 12px;
+ border-radius: 4px;
+ transition-duration: .4s;
+}
+
+button:hover {
+ background-color: lightgray;
+ color: white;
+ border: 1px solid lemonchiffon;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
