@@ -1,0 +1,50 @@
+.navbar{
+  background-color:lavender;
+  overflow: hidden;
+}
+
+.navbar a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 23px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: fantasy;
+  }
+
+.navbar a:hover{
+  background-color: plum;
+  color:cornflowerblue;
+  padding:15px 20px;
+}
+
+.navbar a.class1{
+  background-color: plum;
+  color: white;
+}
+
+body{
+  background-color:azure;
+}
+
+h2{
+  color:lightpink;
+  text-align: center;
+  font-family:monospace;
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
