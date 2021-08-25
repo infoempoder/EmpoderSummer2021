@@ -1,0 +1,107 @@
+body{
+  background-color:lightcyan;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+
+/* add a background color to the top navagigation*/
+.navbar{
+background-color:black;
+overflow: hidden;
+}
+
+/* styles links inside nav bar*/
+.navbar a{
+float: left;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none; 
+font-size: 17px;
+}
+
+
+ /* chamge color of links on hover */
+.navbar a:hover{
+ background-color:gray;
+ color:black;
+}
+
+/* add color to active
+content: "";
+display:table;
+clear: both; 
+}
+/*current linl*/
+.navbar a.active{
+
+background-color:purple;
+color: white;
+}
+
+
+.column4{
+  float: left;
+  width: 25%
+}
+
+
+.column2{
+  float:left;
+  width:25%
+}
+
+
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.column {
+  float:left;
+  
+}
+
+
+.left{
+  width:50%;
+}
+
+.right{
+  width: 50%;
+}
+
+button {
+  background-color:cornflowerblue;
+  border:none;
+  color:white;
+  padding: 15px 26px;
+  text-align:center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 4px;
+  transition-duration: .4s;
+}
+
+button:hover {
+  background-color:plum;
+  color:white;
+  border:1px solid steelblue;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+
